@@ -56,7 +56,7 @@ t5 =t5.reshape((24,))  #注意传入的是一个元组
 print('t5_变回1d后:\n',t5)
 
 #%%------------------还有个方法flatten()将高维度数组展开成一维------------------------
-
+import numpy as np
 #先生成个2D数组
 t_2d = np.arange(0,12).reshape(3,4)
 print('t_2d:\n',t_2d)
