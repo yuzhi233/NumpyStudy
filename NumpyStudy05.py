@@ -53,7 +53,7 @@ t2 =np.array([[1,1,1,1,1],
 
 print('t1:\n',t1)
 print('t2:\n',t2)
-print('竖直拼接:\n',np.vstack((t1,t2)))
+print('竖直拼接:\n',np.vstack( t1,t2 ))
 print('水平拼接:\n',np.hstack((t1,t2)))
 
 #交换数据的行列

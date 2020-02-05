@@ -25,6 +25,8 @@ print('t3,max index:\n',max_index)
 t4 =np.random.randn(2,3,4)#标准正态分布
 print(t4)
 
+
+
 t5 =np.random.uniform(0,11,(2,3))#产生从0-10，2行3列均匀分布的随机数的数组
 print('均匀分布t5：\n',t5)
 
@@ -34,7 +36,7 @@ t6 =np.random.randint(0,11,(2,3))
 print(t6)
 
 
-#%%Numpy的copy()和
+#%%Numpy的copy() 
 import numpy as np
 
 
@@ -60,3 +62,7 @@ e =[2,2,2]
 f=e.copy()
 print(e,id(e))
 print(f,id(f))
+
+g = np.array([1,3,4])
+h =g.copy()
+print(h is g)

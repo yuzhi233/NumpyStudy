@@ -54,7 +54,7 @@ t1 =np.array([[3,3,3,3],
               [9,10,nan,11]])
 
 t2 =np.arange(12).reshape(3,4)
-
+print(t2)
 #直接替换成0不合适！
 #把Nan替换成/均值中值，或者删除含nan的一行/列(不是非常推荐不是完美选择)
 print(t1.dtype) 
